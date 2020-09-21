@@ -15,7 +15,7 @@ export class Details extends Component {
             info,
             price,
             title,
-            total,
+
             company,
           } = value.detailProduct;
           // console.log(value.detailProduct);

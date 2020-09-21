@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-import PropTypes from "prop-types";
+//import PropTypes from "prop-types";
 import { ProductConsumer } from "./Context";
 
 export class Product extends Component {
   render() {
-    const { id, img, inCart, info, price, title } = this.props.product;
+    const { id, img, inCart, price, title } = this.props.product;
     // const { product } = this.props;
     // console.log(product);
     return (

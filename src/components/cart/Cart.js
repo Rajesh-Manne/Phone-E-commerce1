@@ -3,7 +3,6 @@ import Title from "../../components/Title";
 import EmptyCart from "./EmptyCart";
 import { ProductConsumer } from "../Context";
 import CartColumns from "./CartColumns";
-import cartList from "./CartList";
 import CartList from "./CartList";
 import CartTotals from "./CartTotals";
 
