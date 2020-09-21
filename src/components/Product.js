@@ -10,7 +10,7 @@ export class Product extends Component {
     // const { product } = this.props;
     // console.log(product);
     return (
-      <ProductWrapper className="col-10 mx-auto col-md-6 my-2 col-lg-4">
+      <ProductWrapper className="col-10 mx-auto col-md-6 my-2  col-lg-4">
         <div className="card">
           <ProductConsumer>
             {(value) => (
@@ -82,7 +82,7 @@ const ProductWrapper = styled.div`
     }
   }
   .card-img-top {
-    transition: all 1s ease-in-out;
+    transition: all 1s ease-in;
   }
   .img-container:hover .card-img-top {
     transform: scale(1.2);
